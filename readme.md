@@ -1,6 +1,8 @@
-# This tool allows you to access internal HPI websites using a SSH tunnel.
+## HPI SSH Tunnel Helper 
 
-## Build
+This tool allows you to access internal HPI websites using a SSH tunnel.
+
+### Build
 
 **Dependencies**:  
 - `sshpass`
@@ -9,7 +11,7 @@
 
 `$ g++ hpi_vpn.cpp -o hpi-vpn`
 
-## Usage
+### Usage
 
 `$ ./hpi_vpn`
 
