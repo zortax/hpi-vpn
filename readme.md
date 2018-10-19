@@ -13,5 +13,5 @@ This tool allows you to access internal HPI websites using a SSH tunnel.
 
 ### Usage
 
-`$ ./hpi_vpn`
+`$ ./hpi-vpn`
 
