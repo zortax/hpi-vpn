@@ -93,7 +93,7 @@ int main(int argc, char** argv) {
 	host = h;
 	cout << "Connecting..." << endl;
 	addHost(host);
-	string cmd = "nohup xdg-open https://" + host + " &";
+	string cmd = "nohup xdg-open https://" + host + " >/dev/null 2>&1 &";
 	system(cmd.c_str());
     }
     
